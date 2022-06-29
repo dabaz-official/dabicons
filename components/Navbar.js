@@ -1,8 +1,10 @@
+import Image from "next/image"
+
 export default function Navbar () {
   return (
     <nav className="py-12 flex justify-between bg-transparent">
       <div className="flex flex-row justify-center items-center">
-        <img src="/logo.png" alt="logo" className="h-8 w-auto" />
+        <Image src="/logo.png" alt="logo" className="h-8 w-auto" />
         <h1 className="px-2 text-3xl text-white display text-center my-auto font-bold sm:hidden">DabIcons</h1>
       </div>
       <div className="flex flex-row justify-center items-center my-auto">
