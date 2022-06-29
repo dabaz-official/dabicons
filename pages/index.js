@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Navbar from '../components/Navbar'
 
 export default function Home() {
@@ -29,7 +28,7 @@ export default function Home() {
               Beautiful handmade icons 
             </h1>
             <h1 className='text-7xl font-bold pt-2 display mr-12'>
-              designed by <a href='https://dabaz.vercel.app' target='_blank' rel="noreferrer">DabAZ</a>
+              designed by <a href='https://dabaz.vercel.app' target='_blank' rel="noopener noreferrer">DabAZ</a>
             </h1>
             <div className='pt-8'>
               <a href='#' className='px-6 py-2 bg-green-600 rounded-full inline-flex hover:bg-green-700 transition justify-center items-center text-lg'>
