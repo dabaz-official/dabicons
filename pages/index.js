@@ -32,7 +32,7 @@ export default function Home() {
               designed by <a href='https://dabaz.vercel.app' target='_blank'>DabAZ</a>
             </h1>
             <div className='pt-8'>
-              <a href='/' className='px-6 py-2 bg-green-600 rounded-full inline-flex hover:bg-green-700 transition justify-center items-center text-lg'>
+              <a href='#' className='px-6 py-2 bg-green-600 rounded-full inline-flex hover:bg-green-700 transition justify-center items-center text-lg'>
                 Learn more
               </a>
             </div>

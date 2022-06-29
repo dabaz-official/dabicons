@@ -6,10 +6,10 @@ export default function Navbar () {
         <h1 className="px-2 text-3xl text-white display text-center my-auto font-bold sm:hidden">DabIcons</h1>
       </div>
       <div className="flex flex-row justify-center items-center my-auto">
-        <a href="/" className="text-white text-lg px-2">
+        <a href="#" className="text-white text-lg px-2">
           Docs
         </a>
-        <a href="/" className="ml-2 text-lg px-6 py-2 bg-green-600 text-white hover:bg-green-700 rounded-full transition active:ring">
+        <a href="#" className="ml-2 text-lg px-6 py-2 bg-green-600 text-white hover:bg-green-700 rounded-full transition active:ring">
           Github
         </a>
       </div>
