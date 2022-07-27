@@ -27,10 +27,10 @@ export default function Founder () {
             </h2>
             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
               <span className="block text-blue-600">DabAZ -</span>
-              {" "}Hey there, I'm the founder of DabIcons.
+              {" "}Hey there, I&apos;m the founder of DabIcons.
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-              I'm an ethical hacker, musician, designer, and front-end developer. I'm new to my icon-design career, but I believe that I can be the greatest.
+              I&apos;m an ethical hacker, musician, designer, and front-end developer. I&apos;m new to my icon-design career, but I believe that I can be the greatest.
             </p>
             <p className="mt-8">
               <Link href="https://twitter.com/dabaz_official">

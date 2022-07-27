@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Hero() {
   return (
@@ -16,7 +17,7 @@ export default function Hero() {
             </svg>
           </div>
           <div className="relative z-10 mx-auto flex w-64 rounded-xl bg-slate-600 shadow-xl md:w-80 lg:w-auto">
-            <img alt="hero pic" src="/hero.png" width="960" height="1284" class="w-full" />
+            <Image alt="hero pic" src="/hero.png" width="1284" height="1284" className="w-full" />
           </div>
         </div>
         <div className="relative px-4 sm:px-6 lg:col-span-7 lg:pr-0 lg:pb-14 lg:pl-16 xl:pl-20">
@@ -24,7 +25,7 @@ export default function Hero() {
           <figure className="relative mx-auto max-w-md text-center lg:mx-0 lg:text-left">
             <blockquote className="mt-2">
               <p className="font-display text-xl font-medium text-slate-900">
-                "These simple & beautiful icons are designed for UI design and front-end development."
+                &quot;These simple & beautiful icons are designed for UI design and front-end development.&quot;
               </p>
             </blockquote>
             <figcaption className="mt-2 text-sm text-slate-500">
